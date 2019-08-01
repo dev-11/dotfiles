@@ -1,2 +1,2 @@
 # dotfiles
-my dotfiles settings 
+my dotfiles and default settings 
