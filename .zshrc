@@ -103,11 +103,12 @@ alias gpull='git pull'
 alias gpush='git push'
 alias gposh='git push'
 alias gpoll='git pull'
-alias gmm='git merge master'\
+alias gmm='git merge master'
 alias rpdf='git rm --cached -r . && git reset --hard && git rm .gitattributes && git reset . && git checkout .'
 alias fpdf='git rm --cached -r . && git reset --hard && git rm .gitattributes && git reset . && git checkout .'
 alias weather='curl -4 http://wttr.in/London'
 alias moon='curl -4 http://wttr.in/Moon'
+alias sj='bundle exec jekyll serve'
 
 function gs(){
   tput setaf 2;
@@ -140,3 +141,4 @@ function gst() {
 
   git stage "$0" ;
 }
+
