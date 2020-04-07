@@ -87,6 +87,12 @@ alias fpdf='git rm --cached -r . && git reset --hard && git rm .gitattributes &&
 alias weather='curl -4 http://wttr.in/London'
 alias moon='curl -4 http://wttr.in/Moon'
 alias sj='bundle exec jekyll serve'
+alias dt=‘tree -d -I “__pycache__”’
+alias dt1=‘tree -d -L 1 -I “__pycache__”’
+alias gd=‘cdiff -s -w 0’
+alias gr=‘git checkout’
+alias ip=“ifconfig en0 | grep -w ‘inet’ | awk ‘{print $2}’”
+
 
 function gs(){
   tput setaf 2;
