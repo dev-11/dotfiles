@@ -1,2 +1,2 @@
 # dotfiles 🏡
-my dotfiles and default settings 
+my dotfiles and default settings.
